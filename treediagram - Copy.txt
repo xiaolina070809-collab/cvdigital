@@ -1,0 +1,131 @@
+aplikasipiketguru/
+│
+├── index.php
+│   # Halaman homepage / selamat datang
+│   # Navbar: Beranda, Jadwal Piket, Tentang, Kontak,
+│   # Login Admin/Guru
+│
+├── assets/
+│   ├── js/
+│   ├── css/
+│   ├── plugins/
+│   └── images/
+│       ├── slider/
+│       ├── guru/
+│       ├── sekolah/
+│       └── user/
+│
+├── views/
+│   │
+│   ├── component/
+│   │
+│   │   ├── tamu/
+│   │   │   ├── navbar.php
+│   │   │   └── footer.php
+│   │   │
+│   │   ├── user/
+│   │   │   ├── navbar.php
+│   │   │   │   # Foto, role, nama user, logout
+│   │   │   │
+│   │   │   ├── sidebaradmin.php
+│   │   │   │   # Seluruh menu Admin
+│   │   │   │
+│   │   │   ├── sidebarguru.php
+│   │   │   │   # Menu Guru
+│   │   │   │   # Tidak ada menu User
+│   │   │   │
+│   │   │   └── footer.php
+│   │   │
+│   │   └── guru/
+│   │       ├── navbar.php
+│   │       │   # Foto guru, role, nama guru, logout
+│   │       ├── sidebar.php
+│   │       └── footer.php
+│   │
+│   ├── user/
+│   │   │
+│   │   ├── dashboard/
+│   │   │   ├── dashboardadmin.php
+│   │   │   └── dashboardguru.php
+│   │   │
+│   │   ├── user/
+│   │   │   ├── index.php
+│   │   │   ├── create.php
+│   │   │   ├── edit.php
+│   │   │   └── show.php
+│   │   │
+│   │   ├── guru/
+│   │   │   ├── index.php
+│   │   │   ├── create.php
+│   │   │   ├── edit.php
+│   │   │   └── show.php
+│   │   │
+│   │   ├── jadwalpiket/
+│   │   │   ├── index.php
+│   │   │   ├── create.php
+│   │   │   ├── edit.php
+│   │   │   └── show.php
+│   │   │
+│   │   ├── haripiket/
+│   │   │   ├── index.php
+│   │   │   ├── create.php
+│   │   │   ├── edit.php
+│   │   │   └── show.php
+│   │   │
+│   │   ├── kelas/
+│   │   │   ├── index.php
+│   │   │   ├── create.php
+│   │   │   ├── edit.php
+│   │   │   └── show.php
+│   │   │
+│   │   ├── laporanpiket/
+│   │   │   ├── laporanharian.php
+│   │   │   ├── cetaklaporanharian.php
+│   │   │   ├── laporanbulanan.php
+│   │   │   ├── cetaklaporanbulanan.php
+│   │   │   ├── laporantahunan.php
+│   │   │   └── cetaklaporantahunan.php
+│   │   │
+│   │   └── absensi/
+│   │       ├── index.php
+│   │       ├── create.php
+│   │       ├── edit.php
+│   │       └── show.php
+│   │
+│   ├── guru/
+│   │   ├── dashboardguru.php
+│   │   ├── profil.php
+│   │   ├── jadwalpiket.php
+│   │   ├── absensipiket.php
+│   │   └── riwayatpiket.php
+│   │
+│   ├── landing/
+│   │   ├── home.php
+│   │   ├── jadwalpiket.php
+│   │   ├── detailjadwal.php
+│   │   ├── daftarGuru.php
+│   │   ├── detailguru.php
+│   │   ├── tentang.php
+│   │   ├── kontak.php
+│   │   └── daftarisi.php
+│   │
+│   ├── auth/
+│   │   ├── logout.php
+│   │   ├── loginuser.php
+│   │   └── loginguru.php
+│   │
+│   └── errors/
+│       ├── 404.php
+│       ├── 403.php
+│       └── 500.php
+│
+└── proses/
+    ├── koneksi.php
+    ├── session.php
+    ├── prosesuser.php
+    ├── prosesguru.php
+    ├── prosesjadwalpiket.php
+    ├── prosesabsensipiket.php
+    ├── proseskelas.php
+    ├── proseslaporanpiket.php
+    └── prosesdashboard.php
